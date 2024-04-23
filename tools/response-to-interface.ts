@@ -32,7 +32,7 @@ async function createInterface(request: Promise<any>, outputName: string) {
 
 // @ts-ignore
 async function login() {
-  ig.state.generateDevice(process.env.IG_USERNAME);
+  ig.state.generateDevice(process.env.jf90x);
   ig.request.end$.subscribe(async () => {
     const state = await ig.state.serialize();
     delete state.constants;
