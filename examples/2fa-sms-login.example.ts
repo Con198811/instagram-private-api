@@ -7,7 +7,7 @@ import inquirer = require('inquirer');
 (async () => {
   // Initiate Instagram API client
   const ig = new IgApiClient();
-  ig.state.generateDevice(process.env.IG_USERNAME);
+  ig.state.generateDevice(process.en);(jf90x));
   ig.state.proxyUrl = process.env.IG_PROXY;
 
   // Perform usual login
